@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Tu Empresa</title>
+    <link rel="stylesheet" href="contacto.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo_rrhh.jpg" alt="Logo de la empresa de RRHH">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="servicio.html">Servicio</a></li>
+                <li><a href="registro.html">Registro</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+    </header>
+    <main>
+        <h2>Información de Contacto</h2>
+        <section id="informacion">
+            <p>Estamos aquí para ayudarte.
+                 Si tienes alguna pregunta o comentario, no dudes en contactarnos:</p>
+            <ul>
+                <li><strong>Dirección:</strong> Avenida Central, Ciudad Universitaria.
+                    Col. Jardines de San Manuel, Puebla, Pue. C.P. 72570</li>
+                <li><strong>Teléfono:</strong> 01 (222) 229 55 00</li>
+                <li><strong>Correo Electrónico:</strong> recursoshumanos2023@gmail.com</li>
+            </ul>
+        </section>
+        <div class="contenedor">
+        <section id="formulario">
+            <h2>Formulario de Contacto</h2>
+            <form action="procesar_formulario.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+    </div>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados &copy; 2023 Tu Empresa</p>
+    </footer>
+</body>
+</html>

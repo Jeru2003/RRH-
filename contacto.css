@@ -1,0 +1,173 @@
+header {
+    background-color:  #3d3b3bc5;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif; /* Apply a common font to the entire page */
+    background-color: #f4f4f4; /* Set a light background color */
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.logo img {
+    max-width: 80px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.body1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/*----------------------------------*/
+.contenedor {
+    background-color: #f6f6f6;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 400px;
+    margin: 80px auto;
+    text-align: center;
+    font-family: "Ubuntu", Arial, sans-serif; /* Usa la fuente Ubuntu si está disponible */
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    color: #555;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #0077ff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0055cc;
+}
+/*---------------------------------------------------*/
+#informacion {
+    text-align: center; /* Centra el contenido horizontalmente */
+    font-family: "Ubuntu", Arial, sans-serif; /* Usa la fuente Ubuntu si está disponible */
+    color: #333; /* Color de texto */
+    width: 60%; /* Establece un ancho */
+    margin: 0 auto; /* Centra horizontalmente */
+}
+
+#informacion p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left; /* Alinea el texto del párrafo a la izquierda */
+}
+
+#informacion ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left; /* Alinea la lista a la izquierda */
+}
+
+#informacion li {
+    font-size: 14px; 
+    margin: 10px 0;
+    text-align: left; /* Alinea los elementos de lista a la izquierda */
+}
+
+#informacion strong {
+    font-weight: bold;
+}
+/*---------------------------------------------------------------------------------*/
+
+footer {
+    background-color: #3d3b3bc5; /* Adjusted the color to a dark gray */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: "Ubuntu", sans-serif; /* Applied the Ubuntu font */
+}
+
+.copyright {
+    font-size: 1rem; /* Optional: Adjust the font size */
+}

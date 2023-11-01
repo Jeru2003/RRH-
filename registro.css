@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif; /* Apply a common font to the entire page */
+    background-color: #f4f4f4; /* Set a light background color */
+}
+header {
+    background-color:  #3d3b3bc5;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.logo img {
+    max-width: 80px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.body1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+footer {
+    background-color: #3d3b3bc5; /* Adjusted the color to a dark gray */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: "Ubuntu", sans-serif; /* Applied the Ubuntu font */
+}
+
+.copyright {
+    font-size: 1rem; /* Optional: Adjust the font size */
+}
